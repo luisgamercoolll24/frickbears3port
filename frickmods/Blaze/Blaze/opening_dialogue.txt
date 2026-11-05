@@ -1,0 +1,4 @@
+{
+	"DIALOGUE":["Greetings. I am Blaze the Cat.","I assure you, my presence in this... unconventional establishment is strictly a matter of duty ...","A dimensional anomaly was detected in this area, and I suspect a Sol Emerald is to blame.","To have full access, and to not raise local suspicion, I have enlisted as an employee.","I will do whatever I am required to for this job, as long as they do not interfere with my investigation."],
+	"FIRST_PERSON":"true"
+} 

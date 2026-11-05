@@ -1,0 +1,35 @@
+{
+	"player_height": 48,
+	"player_sneak_height": 16,
+	
+	"theme_intro": ["musIntro.ogg", 1],
+	"theme_game_over": ["sfxGameOver.ogg", 1],
+	"theme_victory": ["sfxVictory.ogg", 1],
+	"theme_victory_night5": ["sfxVictory5.ogg", 1],
+	"theme_victory_night6": ["sfxVictory6.ogg", 1],
+	
+	"music_player":
+	[
+		["Blaze - Guard Introduction", "musIntro.ogg", 50, "Blaze's Theme", "Green Frickbear's", [33.0755, 69.6519]],
+		["Blaze - Game Over", "sfxGameOver.ogg", 100, "Blaze's Theme", "Green Frickbear's"],
+		["Blaze - 6 A.M.", "sfxVictory.ogg", 150, "Blaze's Theme", "Green Frickbear's"],
+		["Blaze - 6 A.M. (Night 5)", "sfxVictory5.ogg", 200, "Blaze's Theme", "Green Frickbear's"],
+		["Blaze - 6 A.M. (Night 6)", "sfxVictory6.ogg", 300, "Blaze's Theme", "Green Frickbear's"]
+	],
+
+	"maze_rules_poster": [["...For what reason does rule four need to be specified.", "Blaze"]],
+	"maze_newspaper_1": [["...Interesting article.", "Blaze"]],
+	"maze_newspaper_2": [["...Wait, the robots can do that?", "Blaze"]],
+	"maze_newspaper_3": [["...I suppose the new name is a tad humorous.", "Blaze"]],
+	
+	"upgrade_cadet_story": [["This is just Jack and the Beanstalk. You're telling me Jack and the Beanstalk.", "Blaze"],
+		["YOU ASKED FOR A STORY. I AM TELLING YOU A STORY. I DO NOT SEE THE ISSUE.", "Upgrade Cadet"],
+		["I paid two bucks and fifty cents for this, dude. The least you could do is tell an original story.", "Blaze"],
+		["IT IS A GOOD STORY. ANY ALTERATIONS WOULD DISTRACT FROM ITS MESSAGE.", "Upgrade Cadet"],
+		["Fine, whatever, keep going then.", "Blaze"]],
+	"withered_bonnie": "lindo gato morado",
+	"bb_quiz_answer": "Anomaly",
+	"helpy": [["Um, no, I actually-", "Blaze"]],
+	"psy_friend_fredbear_house": [["Is this not trespassing...?", "Blaze"]],
+	"dreadbear": [["YOU! MISTER PURPLE CAT!", "Dreadbear"]]
+}

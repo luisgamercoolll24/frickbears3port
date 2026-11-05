@@ -1,0 +1,5 @@
+{
+	"FULL_NAME": "Blaze the Cat",
+	"DEV_NOTES": "Created by LiterallyBlaze.\n\nBlaze is like my favourite character ever so now she Frickbear's.",
+	"DESCRIPTION": "DEBUT: Sonic Rush (2005)\n\nBlaze the Cat, The Princess of the Sol Empire, located in the Sol Dimension, is a skilled fighter, she harnesses the power of pyrokinesis in combat. She is good friends with Sonic and Cream the rabbit",
+}
