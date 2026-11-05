@@ -1,0 +1,9 @@
+{
+	"new_cassidy_dialogue": "true",
+	
+	"molten_freddy": [["What on earth...", "Blaze"]],
+	"circus_baby": [["_skip"], ["Wait a moment I did not say-", "Blaze"]],
+	"animdude": [["Greetings.", "Blaze"], ["Nice purple.", "Animdude"], ["...Thank you?", "Blaze"]],
+	"popgoes": [["If I did, would that make you myPOPGOES?", "Blaze"]],
+	"rodney": [["I know not of you.", "Blaze"]]
+}
