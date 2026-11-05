@@ -1,0 +1,37 @@
+{"DIALOGUE":
+	[
+		["One shift down, and no leads on the anomaly...", "Blaze"],
+		["_skip"],
+		["I will go home, and-.", "Blaze"],
+		["_delay", 150],
+		["_func", [["playSound", "sfxPhoneRing", 10, true]]],
+		["It's my employer.", "Blaze"],
+		["_func",
+			[
+				["stopSound", "sfxPhoneRing"],
+				["playSound", "sfxPhonePickup", 10, false]
+			]
+		],
+		["_delay", 120],
+		
+		["Ring ring! Hey, is this stupid thing on?", "The Boss"],
+		["_func", [["playMusic", "musMidnight_TheBoss", 0.5]]],
+		["Hey, stooge! Great work tonight or whatever.", "The Boss"],
+		["Big news! Your good-for-nothing coworker isn't picking up his calls, so it looks like you get to work overtime!", "The Boss"],
+		["Very well, if extending my hours is what is neccessary to further my investigation, I shall comply.", "Blaze"],
+		["That's what I like to hear!", "The Boss"],
+		["Go to the address I sent you! Some chump will explain the rest when you get there.", "The Boss"],
+		["Good luck or whatever!", "The Boss"],
+		["Leave the late shift to me.", "Blaze"],
+		["_delay", 120],
+		["_func",
+			[
+				["stopSound", "musMidnight_TheBoss"],
+				["playSound", "sfxPhonePickup", 10, false]
+			]
+		],
+		
+		["This may be a good opportunity to search for clues.", "Blaze"],
+		["_func", [["salvage"]]]
+	]
+} 
