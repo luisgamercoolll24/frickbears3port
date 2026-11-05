@@ -1,0 +1,59 @@
+{"DIALOGUE":
+	[
+		["_func",
+			[
+				["addActor", 1, "sTalksprites_Vanny"], 
+				["playMusic", "musMidnight_Vanny", 1], 
+				["fadeMusic", "musMidnight_Vanny", 1, 0]
+			]
+		],
+		
+		["...Oh, you beautiful, BEAUTIFUL little thing, you!", "White Rabbit"],
+		["_func", [["setActor", 3]]],
+		["You really got them...ALL of them...", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["Oh, I'm so happy, I could KISS you!", "White Rabbit"],
+		["Please restrain yourself.", "Blaze"],
+		["Regardless, I have fulfilled my part of our agreement. Now speak of the compensation we discussed...", "Blaze"],
+		["_func", [["setActor", 4]]],
+		["...Compensation?", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["OH, right! Teehee, I nearly forgot!", "White Rabbit"],
+		["_func", [["setActor", 6]]],
+		["Yes, yes...I've got all the pieces I need now...I should be able to get it together for you in no time!", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["...If you can give me a day.", "White Rabbit"],
+		["You promised me the information I need.", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["Information? Fahaha, don't make me laugh! It's something WAY better than that!", "White Rabbit"],
+		["_func", [["setActor", 6]]],
+		["Once you get it, you'll feel like your whole life has been leading up to it! It's...it's priceless!", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["I'd even go as far to say it's to DIE for!", "White Rabbit"],
+		["...Your choice of words inspires very little confidence.", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["Oh, calm down, it's only a joke...", "White Rabbit"],
+		["_func", [["setActor", 0]]],
+		["Really though, come back here tomorrow, 12 AM. You will NOT wanna miss what I have for you.", "White Rabbit"],
+		["_func",
+			[
+				["removeActor"], 
+				["fadeMusic", "musMidnight_Vanny", 0, 1000]
+			]
+		],
+		
+		["And so, the white rabbit disappeared into the darkness...for what may be the final time.", ""],
+		["The establishment isn't even scheduled to open tomorrow...", "Blaze"],
+		["...Yet, I did not make it this far to retreat at the very end.", "Blaze"],
+		["...Im ready for whatever awaits.", "Blaze"],
+		
+		["_split", false, "HasTalbert", true, 
+			[
+				["_money"]
+			],	
+			[
+				["_func", [["night6", "vanny"]]]
+			]
+		]
+	]
+} 

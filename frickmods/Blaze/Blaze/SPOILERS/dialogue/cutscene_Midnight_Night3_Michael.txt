@@ -1,0 +1,69 @@
+{"DIALOGUE":
+	[
+		["(...He's outside again.)", "Blaze"],
+		["_func",
+			[
+				["addActor", 0, "sTalksprites_Michael"], 
+				["playMusic", "musMidnight_Michael", 1], 
+				["fadeMusic", "musMidnight_Michael", 1, 0]
+			]
+		],
+		
+		["Ah, hello again. I was hoping I'd see you.", "Michael"],
+		["_func", [["setActor", 3]]],
+		["...I see you have yourself another one of the masks.", "Michael"],
+		["I do. Here.", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["Yes, excellent...I had a feeling I could count on you.", "Michael"],
+		["I believe you owe me an explanation for the reason of this.", "Blaze"],
+		["I got a gift from an arcade cabinet, then a puppet traded it to me for the mask.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["...Puppet?", "Michael"],
+		["_func", [["setActor", 2]]],
+		["That's...hmm.", "Michael"],
+		["_func", [["setActor", 5]]],
+		["(...Well, there's certainly some purpose behind it...but still, it seems...unlike her. Why would she be so willing to give them up...?)", "Michael"],
+		["Is something the matter?", "Blaze"],
+		["_func", [["setActor", 1]]],
+		["...Oh, it's nothing.", "Michael"],
+		["_func", [["setActor", 4]]],
+		["It's just...not often the puppets are so trusting, you know. If they're so willing to work with you...", "Michael"],
+		["_func", [["setActor", 1]]],
+		["Well, I suppose you were the right choice for this job after all.", "Michael"],
+		
+		["_func", [["setActor", 2]]],
+		["Believe it or not, I've actually tried to gather the masks myself on a fair few occasions. Though the Marionette...", "Michael"],
+		["_func", [["setActor", 4]]],
+		["...Well, she doesn't like me very much.", "Michael"],
+		["What do you mean by that?", "Blaze"],
+		["_func", [["setActor", 1]]],
+		["The robots are...well, spirited, let's just call them that.", "Michael"],
+		["_func", [["setActor", 2]]],
+		["Hell, I suppose that goes for all the technology around here. Surely you've noticed yourself with those arcade cabinets.", "Michael"],
+		["_func", [["setActor", 1]]],
+		["The electronics here are especially susceptible to...well, interference, you could call it.", "Michael"],
+		["_func", [["setActor", 4]]],
+		["Easily influenced by outside forces, to a point that they almost act like a medium.", "Michael"],
+		["_func", [["setActor", 2]]],
+		["So who knows? Maybe that arcade cabinet was trying to tell you something.", "Michael"],
+		["_func", [["setActor", 1]]],
+		["And given that you found this mask...I suppose the message got through.", "Michael"],
+		["...", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["...Ah, I apologize. I imagine all of this seems a bit...out there.", "Michael"],
+		["_func", [["setActor", 1]]],
+		["Regardless, you've done well, but we've still work to do. I hope to see you again tomorrow.", "Michael"],
+		["_func",
+			[
+				["removeActor"], 
+				["fadeMusic", "musMidnight_Michael", 0, 1000]
+			]
+		],
+		
+		["...And, just as suddenly as he appeared, the mysterious hooded man disappeared into the darkness.", ""],
+		["...He still has not told me what the purpose of these masks are...", "Blaze"],
+		["...I suppose ill ask him about it tomorrow.", "Blaze"],
+		["Now, I'd better get back to work.", "Blaze"],
+		["_func", [["salvage"]]]
+	]
+} 

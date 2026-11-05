@@ -1,0 +1,63 @@
+{"DIALOGUE":
+	[
+		["_func",
+			[
+				["addActor", 0, "sTalksprites_Michael"], 
+				["playMusic", "musMidnight_Michael", 1], 
+				["fadeMusic", "musMidnight_Michael", 1, 0]
+			]
+		],
+		
+		["...And so you came through.", "Michael"],
+		["_func", [["setActor", 3]]],
+		["...Thank you. I knew you were the one for this job.", "Michael"],
+		["...Yes, I have gotten all the masks you requested.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["...", "Michael"],
+		["_func", [["setActor", 4]]],
+		["...Thank you. But I'm afraid our work here is not quite done.", "Michael"],
+		["_func", [["setActor", 1]]],
+		["First and foremost, you're going to need this.", "Michael"],
+		["Michael shuffles around in his pockets before pulling something out, leaning forward and placing it in your hands.", ""],
+		["It's...a portable game console?", ""],
+		["...I don't believe I follow.", "Blaze"],
+		
+		["_func", [["setActor", 0]]],
+		["Remember what I told you about the arcade cabinets a few nights ago?", "Michael"],
+		["_func", [["setActor", 2]]],
+		["I have cause to believe the same properties apply even to a device like this.", "Michael"],
+        ["_func", [["setActor", 3]]],
+		["We'll need it to contact that...old friend I told you about.", "Michael"],
+		["...And the masks?", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Those are to draw him out.", "Michael"],
+		["_func", [["setActor", 2]]],
+		["I understand that you do not have a shift tomorrow, but I must ask that you humor me and come in anyway. Same time as your regular shift.", "Michael"],
+		["_func", [["setActor", 3]]],
+		["And it MUST be tomorrow, to be clear. There won't be another chance to do this for a long, long time. Understand?", "Michael"],
+		["I understand.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Wonderful. Now, go home and rest...the last thing you'll want to do tomorrow is doze off.", "Michael"],
+		["_func", [["setActor", 3]]],
+		["And do not. Forget. The handheld.", "Michael"],
+		["_func",
+			[
+				["removeActor"], 
+				["fadeMusic", "musMidnight_Michael", 0, 1000]
+			]
+		],
+		
+		["And so, Michael returns to the darkness. For a moment, he stops, looks you in the eye, and nods, before continuing on his way.", ""],
+		["There's a lot that could go wrong tomorrow, but in spite your natural reservations...", ""],
+		["...You steel yourself, and prepare for what's to come.", ""],
+		
+		["_split", false, "HasTalbert", true, 
+			[
+				["_money"]
+			],
+			[
+				["_func", [["night6", "michael"]]]
+			]
+		]
+	]
+} 

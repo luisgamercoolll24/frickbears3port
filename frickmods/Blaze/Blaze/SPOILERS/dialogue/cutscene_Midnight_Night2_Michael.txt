@@ -1,0 +1,73 @@
+{"DIALOGUE":
+	[
+		["(...It seems someone's outside.)", "Blaze"],
+		["_func",
+			[
+				["addActor", 1, "sTalksprites_Michael"], 
+				["playMusic", "musMidnight_Michael", 1], 
+				["fadeMusic", "musMidnight_Michael", 1, 0]
+			]
+		],
+		
+		["Pardon me, but...you ARE the night watchman at this location, yes?", "Hooded Man"],
+		["That would be me, yes.", "Blaze"],
+		["And you are?", "Blaze"],
+		["_func", [["setActor", 4]]],
+		["Ah, where are my manners?", "Hooded Man"],
+		["_func", [["setActor", 1]]],
+		["My name is Michael. Nice to meet you.", "Michael"],
+		["Greetings, Michael.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Pardon my sudden appearance, it's just that...there was something I wished to ask of you.", "Michael"],
+		["_func", [["setActor", 1]]],
+		["Do you recognize this?", "Michael"],
+		["Out from his dingy sweater, Michael presents something familiar...", ""],
+		["...It's that Freddy mask you pried from the puppet's hands last night!", ""],
+		["I am familiar with it, yes. I found it in that old Pizzeria.", "Blaze"],
+		["(How did he get that? I thought I had left it inside. . .)", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["I would've thought even you newer hires would at least remember to keep the entrances locked...", "Michael"],
+		["_func", [["setActor", 3]]],
+		["Or did your training go with the rest of the budget cuts?", "Michael"],
+		["...", "Blaze"],
+		
+		["_func", [["setActor", 2]]],
+		["...Regardless.", "Michael"],
+		["_func", [["setActor", 5]]],
+		["I just couldn't help but wonder what use you would have for something like this, knowing the hoops you must've jumped through to get it.", "Michael"],
+		["I have reason to wonder the same of you.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["...Ah, right then, I suppose I never did explain myself, did I?", "Michael"],
+		["_func", [["setActor", 4]]],
+		["You see, as for myself...I suppose you could say I have a...loose end or two to tie up. A bit of a personal score to settle.", "Michael"],
+		["_func", [["setActor", 3]]],
+		["And in order to do so...I need these masks. All four of them.", "Michael"],
+		["So you are requesting that I...", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["...Bring the rest to me, yes.", "Michael"],
+		["_func", [["setActor", 2]]],
+		["If you intend to continue visiting the other abandoned Freddy's locations as you have been already, you should quickly find the rest.", "Michael"],
+		["_func", [["setActor", 5]]],
+		["I simply ask that you continue to collect them all and bring them to me.", "Michael"],
+		["What Reason do I have to trust your word?", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["I suppose nothing about this is really trustworthy, is it?", "Michael"],
+		["_func", [["setActor", 0]]],
+		["Though, if you do choose to do so regardless...", "Michael"],
+		["_func", [["setActor", 1]]],
+		["...Know that you'd be making an old friend of mine very, very happy.", "Michael"],
+		["_func", [["setActor", 3]]],
+		["I trust you to make the right decision.", "Michael"],
+		["_func",
+			[
+				["removeActor"], 
+				["fadeMusic", "musMidnight_Michael", 0, 1000]
+			]
+		],
+		
+		["...And, just as suddenly as he appeared, the mysterious hooded man disappeared into the darkness.", ""],
+		["That was strange.", "Blaze"],
+		["Im not sure what he meant by any of that. But i have to get back to my nightly duties.", "Blaze"],
+		["_func", [["salvage"]]]
+	]
+} 

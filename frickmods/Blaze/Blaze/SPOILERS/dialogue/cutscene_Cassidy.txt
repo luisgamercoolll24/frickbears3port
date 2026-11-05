@@ -1,0 +1,30 @@
+{"DIALOGUE":
+	[
+		["...Listen, kid.", "Blaze"],
+		["I cannot fathom the agony of being bound to this wretched place for so long.", "Blaze"],
+		["I know nothing of what awaits you on the other side...", "Blaze"],
+		["...But whatever trials you must face in the beyond, cannot compare to being trapped here for eternity.", "Blaze"],
+		["I've endured this place for only a week and I already despise it here.", "Blaze"],
+		["...And remember, you do not need to face it alone, your friends will follow you.", "Blaze"],
+		["...But, after all that I did...", "Cassidy"],
+		["...Would they even st-still want to be my friends anymore?", "Cassidy"],
+		["I...", "Blaze"],
+		["...", "Blaze"],
+		["...Look. I cannot be absolutely certain.", "Blaze"],
+		["But you still care about them, don't you? Don't you believe they deserve better than to be trapped in a place like this for eternity?", "Blaze"],
+		["If that is the path they choose, you must look inside yourself, and reflect on your actions. For their sake", "Blaze"],
+		["You have to do what's best for them.", "Blaze"],
+		["I...", "Cassidy"],
+		["...", "Cassidy"],
+		["...You're right.", "Cassidy"],
+		["It...it isn't right to keep them all down here.", "Cassidy"],
+		["...It isn't right to keep myself down here.", "Cassidy"],
+		["Whatever's there for us after everything's over...they're still my friends. At least, I still believe that...", "Cassidy"],
+		["...Still, I...I don't like saying goodbye.", "Cassidy"],
+		["I'll...I'll see you again someday, won't I?", "Cassidy"],
+		["I'm sure of it.", "Blaze"],
+		["...But you take care of yourself until then, alright?", "Blaze"],
+		["...Haha, yeah...", "Cassidy"],
+		["It's...", "Cassidy"]
+	]
+}

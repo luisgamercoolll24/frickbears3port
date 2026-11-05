@@ -1,0 +1,75 @@
+{"DIALOGUE":
+	[
+		["_delay", 120],
+		["_func", [["playSound", "sfxPhoneRing", 10, true]]],
+		["...It is my employer once again.", "Blaze"],
+		["_func",
+			[
+				["stopSound", "sfxPhoneRing"],
+				["playSound", "sfxPhonePickup", 10, false]
+			]
+		],
+		
+		["_delay", 120],
+		["WAAAAAAAAAAHH!!", "The Boss"],
+		["_effect", 0, 99, "Shake"],
+		["_func", [["playMusic", "musMidnight_TheBoss", 0.5]]],
+		["...Calm yourself, is everything alright?", "Blaze"],
+		["NO! EVERYTHING IS NOT ALRIGHT!", "The Boss"],
+		["_effect", 0, 2, "Shake"],
+		["_effect", 18, 20, "Shake"],
+		["I've been SCAMMED! SWINDLED! HOODWINKED!", "The Boss"],
+		["_effect", 10, 99, "Shake"],
+		["When were you gonna tell me about these files, huh!?", "The Boss"],
+		["Files? I am unfamiliar.", "Blaze"],
+		["The ones I found in your office, you stooge! I took a look through them, and as it turns out...", "The Boss"],
+		["Those jerks who sold me the company were hiding MILLIONS in property RIGHT UNDER MY NOSE!", "The Boss"],
+		["Look, you're the only chump I can trust with this, so shut your trap and listen up!", "The Boss"],
+		["According to these files, there's a secret bunker out there in the middle of the woods.", "The Boss"],
+		["And, more importantly...the place is stuffed to the brim with animatronics that could make me RRRRRRRICH!!", "The Boss"],
+		["_effect", 94, 128, "Shake"],
+		["_split", false, "IsGoodOrEvil", false,
+			[
+				["I have fulfilled my weekly duties, surely you can find somebody else to do it.", "Blaze"],
+				["Grrr...FINE! I'll sweeten the deal.", "The Boss"],
+				["If you do this for me, I'll take you out to a steakhouse I like. My treat!", "The Boss"],
+				["...Very well, an acceptable agreement.", "Blaze"],
+				["Wahaha, excellent! I knew I could count on you.", "The Boss"],
+				["Now MOVE IT!! Time is money!", "The Boss"],
+				["_effect", 4, 13, "Shake"]
+			],
+			[
+				["I need you to crawl down there and retrieve those bots! And it better be NOW!", "The Boss"],
+				["...Oh, and if you do, I'll, uh...take you out to dinner or something. My treat!", "The Boss"],
+				["I BETTER see you there!", "The Boss"]
+			]
+		],
+		["_delay", 120],
+		["_func",
+			[
+				["stopSound", "musMidnight_TheBoss"],
+				["playSound", "sfxPhonePickup", 10, false]
+			]
+		],
+		
+		["_split", false, "IsGoodOrEvil", true,
+			[
+				["...Well, you can't do two things at once. You've got a choice to make here.", ""],
+				["Who will you along with?", ""],
+				["_option", ["Help the Boss", "ChoiceConfirm_Money"]],
+				["_split", false, "IsGood", true,
+					[
+						["_option", ["Help Michael", "ChoiceConfirm_Good"]]
+					],
+					[
+						["_option", ["Help the Rabbit", "ChoiceConfirm_Evil"]]
+					]
+				]
+			],
+			[
+				["...This had better be worth my time.", "Blaze"],
+				["_func", [["salvage"]]]
+			]
+		]
+	]
+}

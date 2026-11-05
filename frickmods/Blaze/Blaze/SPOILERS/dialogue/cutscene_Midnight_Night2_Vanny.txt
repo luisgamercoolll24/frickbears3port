@@ -1,0 +1,74 @@
+{"DIALOGUE":
+	[
+		["Another shift finished...", "Blaze"],
+		["_skip"],
+		["Hopefully there won't be anymore surprises from here on-.", "Blaze"],
+		["_func",
+			[
+				["addActor", 1, "sTalksprites_Vanny"], 
+				["playMusic", "musMidnight_Vanny", 1], 
+				["fadeMusic", "musMidnight_Vanny", 1, 0]
+			]
+		],
+		
+		["Tsk tsk tsk. arent you't you a long way from your palace, little kitty?~!", "White Rabbit"],
+		["AUGH!", "Blaze"],
+		["_effect", 0, 5, "Shake"],
+		["Account for your presence this instant!", "Blaze"],
+		["_effect", 0, 43, "Shake"],
+		["_func", [["setActor", 2]]],
+		["Awww, is that really any way to greet a fellow fan?", "White Rabbit"],
+		["Fellow...fan?", "Blaze"],
+		["_func", [["setActor", 3]]],
+		["C'mon, you aren't fooling me, Mrs. Just-So-Happened-To-Salvage-The-One-And-Only-Springtrap-Last-Night!", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["Nobody takes someone like HIM home with them unless they know exactly who he is.", "White Rabbit"],
+		["...Springtrap? I know nothing of such a name.", "Blaze"],
+		["_func", [["setActor", 3]]],
+		["You knooooow...the yellow rabbit? The spring bunny?", "White Rabbit"],
+		["That foul smelling green rabbit I found in that old pizzeria...? It did not strike me as... valuable.", "Blaze"],
+		["_func", [["setActor", 4]]],
+		["...Wooow. You really DON'T know what you've got on your hands here, huh?", "White Rabbit"],
+		["_func", [["setActor", 3]]],
+		["...Teehee.", "White Rabbit"],
+		
+		["State your identity at once...", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["Oh, I dunno...I guess you could call me a collector!", "White Rabbit"],
+		["_func", [["setActor", 3]]],
+		["Yeah...a collector. I'm a big fan of Freddy's memoribilia, and as for the animatronics...", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["Heehee...well...I'm a PARTICULARLY big fan of them~!", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["That 'raggedy old green thing' you salvaged is actually quite the collector's item! Real one-of-a-kind stuff right there.", "White Rabbit"],
+		["So your intention is to...what, purchase it from me?", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["Yes! ...But not yet.", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["See, as a...collector...just one animatronic isn't enough for me. I need the whole set.", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["Ol' Springy's just the first...there's four in total!", "White Rabbit"],
+		["_func", [["setActor", 0]]],
+		["The rest are gonna be just as well-hidden, but you should find 'em all at the other Freddy's locations.", "White Rabbit"],
+		["_func", [["setActor", 2]]],
+		["...If you plan on visiting them like you did last night, at least.", "White Rabbit"],
+		["...", "Blaze"],
+		["...Well, I would be willing to trade if you have any leads on the dimensional anomaly I have detected around here.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Oh, yeah, yeah, sure, but I need all four of them!", "White Rabbit"],
+		["_func", [["setActor", 3]]],
+		["Until then, I'll see ya around, cutie~!", "White Rabbit"],
+		["_func",
+			[
+				["removeActor"], 
+				["fadeMusic", "musMidnight_Vanny", 0, 1000]
+			]
+		],
+		
+		["...And, just as suddenly as she appeared, the mysterious white rabbit disappeared into the darkness.", ""],
+		["...'Cutie'? What a bizarre individual...", "Blaze"],
+		["Although, if she truly has information I need... I suppose I will have plenty of time to weigh my options.", "Blaze"],
+		["For now, however...I have a job to do.", "Blaze"],
+		["_func", [["salvage"]]]
+	]
+} 

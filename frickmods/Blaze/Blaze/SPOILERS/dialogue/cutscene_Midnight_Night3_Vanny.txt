@@ -1,0 +1,56 @@
+{"DIALOGUE":
+	[
+		["...Great. Her.", "Blaze"],
+		["_func",
+			[
+				["addActor", 1, "sTalksprites_Vanny"], 
+				["playMusic", "musMidnight_Vanny", 1], 
+				["fadeMusic", "musMidnight_Vanny", 1, 0]
+			]
+		],
+		
+		["Well, well, well! Look at you, you little lunatic! You actually pulled through!", "White Rabbit"],
+		["_func", [["setActor", 2]]],
+		["Mweeheehee, I was honestly expecting you to flake on me... I guess you must be some sorta masochist, huh?", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["Don't worry, don't worry... I like that about you.", "White Rabbit"],
+		["I assure you, managing these mechanical relics requires very little effort.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Oh, it's not just that, no. I'm more referring to everything else that's gone on here!", "White Rabbit"],
+		["Clarify your meaning.", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["...Oh. Right. I forgot you were new here.", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["Y'know, you REALLY should do more research before working with someone...I know I have!", "White Rabbit"],
+		["If you have such knowledge, why not tell me yourself?", "Blaze"],
+		["_func", [["setActor", 1]]],
+		["Oh, I'd LOVE to!", "White Rabbit"],
+		["_func", [["setActor", 2]]],
+		["...It'll have to wait for tomorrow, though.", "White Rabbit"],
+		["_func", [["setActor", 3]]],
+		["After all, we both have work to do, don't we?", "White Rabbit"],
+		["You love keeping me in the dark, don't you?", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Oh, I wouldn't call it that...I like to think of it more like a surprise!", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["Carrot-and-stick, my friend! What fun is a task if you don't have a prize waiting for you at the end?", "White Rabbit"],
+		["If that's the carrot...what's the stick?", "Blaze"],
+		["_func", [["setActor", 4]]],
+		["...Huh?", "White Rabbit"],
+		["_func", [["setActor", 2]]],
+		["...Oh, nothing, nothing! I think I just used the wrong saying there, mweehee...", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["Either way, I'll see you tomorrow. Don't let me down~!", "White Rabbit"],
+		["_func",
+			[
+				["removeActor"], 
+				["fadeMusic", "musMidnight_Vanny", 0, 1000]
+			]
+		],
+		
+		["And so, the white rabbit disappeared into the darkness yet again.", ""],
+		["...", "Blaze"],
+		["...What an infuriating creature.", "Blaze"],
+		["_func", [["salvage"]]]
+	]
+} 

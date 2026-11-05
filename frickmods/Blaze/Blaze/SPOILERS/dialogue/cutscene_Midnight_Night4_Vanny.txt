@@ -1,0 +1,71 @@
+{"DIALOGUE":
+	[
+		["The White Rabbit is here.", ""],
+		["_func",
+			[
+				["addActor", 1, "sTalksprites_Vanny"], 
+				["playMusic", "musMidnight_Vanny", 1], 
+				["fadeMusic", "musMidnight_Vanny", 1, 0]
+			]
+		],
+		
+		["Third verse, same as the first! I'm so happy, I could burst!", "White Rabbit"],
+		["...As agreed. Here is the... Jester-like entity you requested.", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Ohh, so THAT'S where she was hiding!", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["Heehee, well, I'm sure she'll be happy to be back with family now!", "White Rabbit"],
+		["...Right.", "Blaze"],
+		["Now, regarding our conversation from last evening.", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["Eh?", "White Rabbit"],
+		["The animatronics, you promised to tell me why they are of such significance.", "Blaze"],
+		["What makes them so special?", "Blaze"],
+		["_func", [["setActor", 0]]],
+		["Ooh, THAT! Of course, of course! I did promise you, didn't I?", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["And, haha...someone would have to be a real JERK to break a promise, wouldn't they?", "White Rabbit"],
+		["_func", [["setActor", 2]]],
+		["...So, uh...which one did you wanna learn about?", "White Rabbit"],
+		["Speak of the rabbit, Springtrap.", "Blaze"],
+		
+		["_func", [["setActor", 1]]],
+		["Well, well, don't you know me well? You couldn't have picked a better one to ask about!", "White Rabbit"],
+		["_func", [["setActor", 6]]],
+		["The other two have been through a lot, but Spingtrap? Hoo BOY, Springtrap, he's seen it ALL!", "White Rabbit"],
+		["_func", [["setActor", 3]]],
+		["He's half the duo that started this whole company! Always a sideshow...but boy, what a sideshow it was!", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["He might not have been the face of the place, but real Fazbear aficionados like me know the truth...he was the REAL backbone of all of this.", "White Rabbit"],
+		["_func", [["setActor", 6]]],
+		["Nobody put things into action like he did! Knew things like he did! Reshaped the world to his very own like he did!", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["Ahhh, he's so dreamy...", "White Rabbit"],
+		["...Am I to understand you are talking about a robot here?", "Blaze"],
+		["_func", [["setActor", 2]]],
+		["...Oh, of course, of course! An animatronic, yeah...", "White Rabbit"],
+		["_func", [["setActor", 0]]],
+		["Though, personally...I like to think of him as a LOT more than that.", "White Rabbit"],
+		["_func", [["setActor", 2]]],
+		["It's really a shame though, isn't it? He spent so long in the big guy's shadow, he never got a chance to shine...", "White Rabbit"],
+		["_func", [["setActor", 5]]],
+		["Anyway, have I talked your ear off enough now? Don't forget, you still have one more to find!", "White Rabbit"],
+		["_func", [["setActor", 3]]],
+		["Just one more, and it'll alllll come together...", "White Rabbit"],
+		["_func", [["setActor", 1]]],
+		["...So I hope you're looking forward to tomorrow as much as I am! Mwwwwwah!", "White Rabbit"],
+		["_func",
+			[
+				["removeActor"], 
+				["fadeMusic", "musMidnight_Vanny", 0, 1000]
+			]
+		],
+		
+		["And so, the white rabbit disappeared into the darkness yet again.", ""],
+		["A chance to shine...", "Blaze"],
+		["...Is that truly why she wants to collect these relics?", "Blaze"],
+		["To grand them a final place in the spotlight?", "Blaze"],
+		["...Regardless... Only one remains. I shall see this quest to its conclusion.", "Blaze"],
+		["_func", [["salvage"]]]
+	]
+} 
