@@ -1,0 +1,9 @@
+{
+	"DIALOGUE":
+		[
+			"...Listen, kid.",
+			"You must move on, everyone has to eventually."
+		],
+	"FIRST_PERSON":"true",
+	"PHOTO_CAPTION":"Blaze solved the mystery of the dimensional anomaly (it was the Fredbear plush) she went home and took a relaxing bath."
+} 
